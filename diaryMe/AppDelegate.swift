@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import Firebase
+import Foundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    
+    // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:  [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        //Edit colour for Navigation bar
+        UINavigationBar.appearance().backgroundColor = UIColor.blue
+        UINavigationBar.appearance().alpha = 0.7
+        //Firebase setting
+        FirebaseApp.configure()
         return true
     }
 

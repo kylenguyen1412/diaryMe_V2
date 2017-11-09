@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271975B91EDC0DF40064DB1E /* NewEntry_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271975B81EDC0DF40064DB1E /* NewEntry_ViewController.swift */; };
+		271E52E21EDE9F690061BB47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271E52E11EDE9F690061BB47 /* GoogleService-Info.plist */; };
 		2722C7BD1E9B2ACD009DB4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722C7BC1E9B2ACD009DB4A1 /* AppDelegate.swift */; };
 		2722C7BF1E9B2ACD009DB4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722C7BE1E9B2ACD009DB4A1 /* ViewController.swift */; };
 		2722C7C21E9B2ACD009DB4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722C7C01E9B2ACD009DB4A1 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		2722C7C71E9B2ACD009DB4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722C7C51E9B2ACD009DB4A1 /* LaunchScreen.storyboard */; };
 		2722C7D21E9B2ACD009DB4A1 /* diaryMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722C7D11E9B2ACD009DB4A1 /* diaryMeTests.swift */; };
 		2722C7DD1E9B2ACD009DB4A1 /* diaryMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722C7DC1E9B2ACD009DB4A1 /* diaryMeUITests.swift */; };
+		2722C7EB1E9B2C37009DB4A1 /* EntryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722C7EA1E9B2C37009DB4A1 /* EntryTableCell.swift */; };
+		2747C9061EE552FE009A2036 /* ShowContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747C9051EE552FE009A2036 /* ShowContentViewController.swift */; };
+		2747C90C1EE5903C009A2036 /* EntryDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747C90B1EE5903C009A2036 /* EntryDiary.swift */; };
+		9A60716CAD0B51CF6F338903 /* Pods_diaryMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F7376F0D521FD91DFA9AB4 /* Pods_diaryMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271975B81EDC0DF40064DB1E /* NewEntry_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntry_ViewController.swift; sourceTree = "<group>"; };
+		271E52E11EDE9F690061BB47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2722C7B91E9B2ACD009DB4A1 /* diaryMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diaryMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2722C7BC1E9B2ACD009DB4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2722C7BE1E9B2ACD009DB4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		2722C7D81E9B2ACD009DB4A1 /* diaryMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diaryMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2722C7DC1E9B2ACD009DB4A1 /* diaryMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryMeUITests.swift; sourceTree = "<group>"; };
 		2722C7DE1E9B2ACD009DB4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2722C7EA1E9B2C37009DB4A1 /* EntryTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableCell.swift; sourceTree = "<group>"; };
+		2747C9051EE552FE009A2036 /* ShowContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowContentViewController.swift; sourceTree = "<group>"; };
+		2747C90B1EE5903C009A2036 /* EntryDiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDiary.swift; sourceTree = "<group>"; };
+		2793D4F43851DCA423E8996B /* Pods-diaryMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diaryMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-diaryMe/Pods-diaryMe.debug.xcconfig"; sourceTree = "<group>"; };
+		27BD6639F5931A1E707E71D6 /* Pods-diaryMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diaryMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-diaryMe/Pods-diaryMe.release.xcconfig"; sourceTree = "<group>"; };
+		64F7376F0D521FD91DFA9AB4 /* Pods_diaryMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diaryMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A60716CAD0B51CF6F338903 /* Pods_diaryMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				2722C7D01E9B2ACD009DB4A1 /* diaryMeTests */,
 				2722C7DB1E9B2ACD009DB4A1 /* diaryMeUITests */,
 				2722C7BA1E9B2ACD009DB4A1 /* Products */,
+				5737F970BEED81329ED8FBE5 /* Pods */,
+				296F2DD556CD3EABBA2EDFC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				2722C7BC1E9B2ACD009DB4A1 /* AppDelegate.swift */,
-				2722C7BE1E9B2ACD009DB4A1 /* ViewController.swift */,
+				2747C90F1EE5906C009A2036 /* Model */,
+				2747C90E1EE5905F009A2036 /* Controller */,
 				2722C7C01E9B2ACD009DB4A1 /* Main.storyboard */,
 				2722C7C31E9B2ACD009DB4A1 /* Assets.xcassets */,
 				2722C7C51E9B2ACD009DB4A1 /* LaunchScreen.storyboard */,
+				271E52E11EDE9F690061BB47 /* GoogleService-Info.plist */,
 				2722C7C81E9B2ACD009DB4A1 /* Info.plist */,
 			);
 			path = diaryMe;
@@ -125,6 +144,42 @@
 			path = diaryMeUITests;
 			sourceTree = "<group>";
 		};
+		2747C90E1EE5905F009A2036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2722C7BE1E9B2ACD009DB4A1 /* ViewController.swift */,
+				271975B81EDC0DF40064DB1E /* NewEntry_ViewController.swift */,
+				2722C7EA1E9B2C37009DB4A1 /* EntryTableCell.swift */,
+				2747C9051EE552FE009A2036 /* ShowContentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2747C90F1EE5906C009A2036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2747C90B1EE5903C009A2036 /* EntryDiary.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		296F2DD556CD3EABBA2EDFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F7376F0D521FD91DFA9AB4 /* Pods_diaryMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5737F970BEED81329ED8FBE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2793D4F43851DCA423E8996B /* Pods-diaryMe.debug.xcconfig */,
+				27BD6639F5931A1E707E71D6 /* Pods-diaryMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2722C7E11E9B2ACD009DB4A1 /* Build configuration list for PBXNativeTarget "diaryMe" */;
 			buildPhases = (
+				22A1CD76E51E1CF4E5FB08A5 /* [CP] Check Pods Manifest.lock */,
 				2722C7B51E9B2ACD009DB4A1 /* Sources */,
 				2722C7B61E9B2ACD009DB4A1 /* Frameworks */,
 				2722C7B71E9B2ACD009DB4A1 /* Resources */,
+				5F1D421E1697FD7691FF58FE /* [CP] Embed Pods Frameworks */,
+				315C38E105B865537CEE1819 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +251,7 @@
 				TargetAttributes = {
 					2722C7B81E9B2ACD009DB4A1 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2EYD2E426S;
 						ProvisioningStyle = Automatic;
 					};
 					2722C7CC1E9B2ACD009DB4A1 = {
@@ -233,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2722C7C71E9B2ACD009DB4A1 /* LaunchScreen.storyboard in Resources */,
+				271E52E21EDE9F690061BB47 /* GoogleService-Info.plist in Resources */,
 				2722C7C41E9B2ACD009DB4A1 /* Assets.xcassets in Resources */,
 				2722C7C21E9B2ACD009DB4A1 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +314,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A1CD76E51E1CF4E5FB08A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		315C38E105B865537CEE1819 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-diaryMe/Pods-diaryMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1D421E1697FD7691FF58FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-diaryMe/Pods-diaryMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2722C7B51E9B2ACD009DB4A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2747C90C1EE5903C009A2036 /* EntryDiary.swift in Sources */,
+				2722C7EB1E9B2C37009DB4A1 /* EntryTableCell.swift in Sources */,
 				2722C7BF1E9B2ACD009DB4A1 /* ViewController.swift in Sources */,
+				2747C9061EE552FE009A2036 /* ShowContentViewController.swift in Sources */,
+				271975B91EDC0DF40064DB1E /* NewEntry_ViewController.swift in Sources */,
 				2722C7BD1E9B2ACD009DB4A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +522,10 @@
 		};
 		2722C7E21E9B2ACD009DB4A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2793D4F43851DCA423E8996B /* Pods-diaryMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EYD2E426S;
 				INFOPLIST_FILE = diaryMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheSaggitHub.diaryMe;
@@ -422,8 +536,10 @@
 		};
 		2722C7E31E9B2ACD009DB4A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BD6639F5931A1E707E71D6 /* Pods-diaryMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2EYD2E426S;
 				INFOPLIST_FILE = diaryMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheSaggitHub.diaryMe;
@@ -505,6 +621,7 @@
 				2722C7E31E9B2ACD009DB4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2722C7E41E9B2ACD009DB4A1 /* Build configuration list for PBXNativeTarget "diaryMeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +630,7 @@
 				2722C7E61E9B2ACD009DB4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2722C7E71E9B2ACD009DB4A1 /* Build configuration list for PBXNativeTarget "diaryMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +639,7 @@
 				2722C7E91E9B2ACD009DB4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
